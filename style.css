@@ -1,0 +1,22 @@
+/* Add some basic styling for the placeholder card icons */
+.card-icon {
+    display: inline-block;
+    background-color: white;
+    color: grey;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin: 0 2px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    min-width: 30px; /* Ensure minimum width */
+    text-align: center; /* Center text */
+}
+
+/* Optional: Make sure card header/footer background matches image if needed */
+/* Bootstrap default bg-light on footer is close */
+/* .card-header { background-color: #f8f9fa; } */ /* Default Bootstrap */
+/* .card-footer.bg-light { background-color: #f1f1f1 !important; } */ /* Slightly darker gray like image */
+
+body {
+    background-color: #e9ecef; /* Light gray background like the outer area */
+}
